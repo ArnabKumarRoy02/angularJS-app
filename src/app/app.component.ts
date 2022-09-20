@@ -6,5 +6,18 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'my-new-app';
+  todoItem: string = '';
+  
+  listofTodos: string[] = [];
+
+  addToTodolist = () => {
+    console.log("clicked")
+    this.listofTodos.push(this.todoItem);
+  }
+
+  deleteItem = (indexofTheItem: number) => {
+    console.log(indexofTheItem);
+    this.listofTodos.splice(indexofTheItem, 1);
+  }
+
 }
