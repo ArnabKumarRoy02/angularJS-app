@@ -8,15 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class TodoComponent implements OnInit {
 
   constructor() { }
-  username: string = "hello";
-
-  get userName(): string {
-    return this.username;
-  }
-
-  set userName(val: string) {
-    this.username = val;
-  }
+  val: string = "";
 
   ngOnInit(): void {
   }
