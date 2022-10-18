@@ -1,0 +1,59 @@
+1. Download nodejs
+2. console.log("Hello World!!")
+    run node index.js
+
+3. const name = "Sufd";
+let number = 0;
+
+const studentObject = {
+    NAME: "Sneha Agarwal",
+    BRANCH: "CSE",
+    CGPA: 0,
+
+};
+
+console.log(studentObject);
+
+node index.js
+
+4. const name = "Sufd";
+let number = 0;
+
+const studentObject = {
+    NAME: "Sneha Agarwal",
+    BRANCH: "CSE",
+    CGPA: 0,
+    "FAVORITE HOBBY": "Firebreathing",
+    ADDRESS: {
+        CITY: "Namchi",
+        COUNTRY: "India", 
+        REGION: "Asia",
+    }
+};
+
+console.log(studentObject["FAVORITE HOBBY"]);
+
+run node index.js
+
+5. const name = "Sufd";
+let number = 0;
+
+const studentObject = {
+    NAME: "Sneha Agarwal",
+    BRANCH: "CSE",
+    CGPA: 0,
+    "FAVORITE HOBBY": "Firebreathing",
+    ADDRESS: {
+        CITY: "Namchi",
+        COUNTRY: "India", 
+        REGION: "Asia",
+    }
+};
+
+studentObject.CGPA = 10;
+
+const {NAME} = studentObject;
+
+console.log(studentObject.CGPA);
+
+run node index.js
